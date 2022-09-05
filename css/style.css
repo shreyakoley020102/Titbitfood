@@ -121,6 +121,11 @@
 
 .hero-img {
   width: 100%;
+  transition: all 0.7s;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
 }
 
 .delivered-meals {
